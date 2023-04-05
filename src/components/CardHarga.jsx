@@ -5,7 +5,7 @@ const CardHarga = (props) => {
       <h1 className="text-3xl font-patua text-black mt-6">{props.harga}</h1>
       <p className="text-abu mt-4">{props.desc}</p>
       <div className="flex gap-4 mt-4">
-        <p className="text-black mb-8">{props.fitur}</p>
+        <div className="text-black mb-8">{props.fitur}</div>
       </div>
       <button className="py-2 w-full rounded text-white font-semibold bg-primary">
         Download

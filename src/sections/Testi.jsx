@@ -59,8 +59,6 @@ const Testi = () => {
     AOS.init();
   }, []);
 
-  console.log(data);
-
   return (
     <div id="testi" className="w-full bg-[#FFEFED] px-4 py-20">
       <div className="container mx-auto">
